@@ -21,10 +21,11 @@ public class Main {
 
     private static void initialiserReserve() {
         // Création d'animaux
-        Animal lion = new Lion("Simba", 5, 190, 1.2, "Bon");
-        Animal serpent = new Reptile("Kaa", 3, 15, 0.5, "Bon");
-        Animal aigle = new Oiseau("Aiglon", 2, 6, 0.8, "Bon");
-        Animal poisson = new Poisson("Nemo", 1, 0.5, 0.3, "Bon");
+        String sexe = "";
+        Animal lion = new Lion("Simba", 5, 190, 1.2, "Bon", sexe);
+        Animal serpent = new Reptile("Kaa", 3, 15, 0.5, "Bon", sexe);
+        Animal aigle = new Oiseau("Aiglon", 2, 6, 0.8, "Bon", sexe);
+        Animal poisson = new Poisson("Nemo", 1, 0.5, 0.3, "Bon", sexe);
 
         animaux.add(lion);
         animaux.add(serpent);
